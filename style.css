@@ -103,18 +103,25 @@ header >h1{
 #confirmar_escolha {
   background-color: rgb(0, 0, 0);
   display: block;
-  max-width: 300px;
+  width: 150px;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px;
   margin-top: 50px;
   margin-bottom: 50px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 5px;
   cursor: pointer;
+  font-size: 12px;
+  transition: .5s ease;
+  border-radius: 15px;
 
 
 }
-#confirmar_escolha > h1 {
+#confirmar_escolha:hover {
+  font-size: 20px;
+  width: 250px;
+}
+#confirmar_escolha > p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
