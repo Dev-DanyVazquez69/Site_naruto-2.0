@@ -12,7 +12,9 @@ body {
   background-attachment: fixed;
 }
 header {
-  background-image: url("https://i.pinimg.com/564x/1c/20/89/1c208947d0509d9c49539d4af2a0a42c.jpg");
+  /* background-image: url("https://i.pinimg.com/564x/1c/20/89/1c208947d0509d9c49539d4af2a0a42c.jpg"); */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 header >h1{
   background: rgba(0, 0, 0, 0.63);
@@ -37,7 +39,7 @@ header >h1{
 }
 .card {
   padding: 10px; 
-  background-color: rgba(0, 0, 0, 0.151);
+  background-color: rgba(0, 0, 0, 0.842);
   border: 1px solid rgb(0, 0, 0);
   width: 200px;
   height: 300px;
@@ -73,6 +75,7 @@ header >h1{
   grid-gap: 10px;
   height: 80px;
   margin-top:5px; 
+  /* background-color: aqua; */
 }
 .botao_de_escolha {
   color: rgba(0, 0, 0, 0.267);
