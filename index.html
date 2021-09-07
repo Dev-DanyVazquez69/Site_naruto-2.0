@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+  <script src="js.js"></script>
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,15 @@
 </head>
 <body>
 <header><h1>QUIZ NARUTO</h1></header>
+<h1 id="titulo">ADIVINHE O NOME DO PERSONAGEM</h1>
 <div id="grid">
   <div class="card" id="1">
    <img src="https://i.pinimg.com/564x/bf/4a/97/bf4a973ee4133844a02e321b3389ee7d.jpg" alt="naruto">
     <div class="formulario">
-      <div class="botao_de_escolha"><p>GAMABUNTA</p></div>
-      <div class="botao_de_escolha"><p>GAMAKICHI</p></div>
-      <div class="botao_de_escolha"><p>BUTAM</p></div>
-      <div class="botao_de_escolha"><p>AO</p></div>
+      <div class="botao_de_escolha" id="gamabunta" onclick="obter_escolha('gamabunta')"><p>GAMABUNTA</p></div>
+      <div class="botao_de_escolha" id="gamakichi" onclick="obter_escolha('gamakichi')" ><p>GAMAKICHI</p></div>
+      <div class="botao_de_escolha" id="butam" onclick="obter_escolha('butam')"><p>BUTAM</p></div>
+      <div class="botao_de_escolha" id="ao" onclick="obter_escolha('ao')"><p>AO</p></div>
     </div>
   </div>
   <div class="card" id="2">
@@ -64,5 +66,6 @@
     </div>
   </div>
 </div>
+<div id="confirmar_escolha" onclick="obter_resultado()"><h1>CONFIRMAR ESCOLHA</h1></div>
 </body>
 </html>
