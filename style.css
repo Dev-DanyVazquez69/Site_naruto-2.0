@@ -5,6 +5,8 @@
   color:rgb(0, 0, 0); 
 }
 body {
+  width: 100vw;
+  height: 100vh;
   background-image: url("fundo.jpg");
   background-position: center center;
   background-size: 100% 100%;
@@ -27,7 +29,7 @@ header >h1{
   grid-template-columns: auto auto auto;
   /* flex-wrap: wrap; */
   /* grid-template-rows: 100px 100px; */
-  width: 100%;
+  max-width: 100%;
   height: auto;
   grid-gap: 15px;
   /* background-color: rgba(0, 0, 0, 0.253); */
@@ -113,6 +115,7 @@ header >h1{
 }
 #confirmar_escolha > h1 {
   color: rgb(0, 0, 0);
+  text-align: center;
 }
 #titulo {
   background-color:black;
@@ -121,5 +124,5 @@ header >h1{
   margin: 0 auto;
   margin-top: 20px;
   display: block;
-  width: 500px;
+  max-width: 500px;
 }
