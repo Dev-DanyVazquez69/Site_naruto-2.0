@@ -1,5 +1,7 @@
 var opcao = "";
+var total_de_acertos = 0;
 //var anterior ="";
+
 function obter_escolha(escolha){
     mudar_cor()
    return opcao = escolha;
@@ -29,4 +31,13 @@ function obter_resultado(){
             alert("Que pena você errou")
         }
     }
+}
+
+function fechar(){
+    cards = document.getElementById("flex")
+    botao_confirma = document.getElementById("confirmar_escolha")
+    instrucoes = document.getElementById("instrucoes");
+    instrucoes.style.display = "none";
+    cards.style.display ="flex";
+    botao_confirma.style.display ="block"
 }

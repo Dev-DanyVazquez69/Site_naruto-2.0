@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("fundo.jpg");
+  background: url("imagens/fundo_kakashi.jpg");
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -14,42 +14,78 @@ body {
 }
 
 header {
-  /* background-image: url("https://i.pinimg.com/564x/1c/20/89/1c208947d0509d9c49539d4af2a0a42c.jpg"); */
+  display: none;
+  padding: 10px 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-header >h1{
-  background: rgba(255, 255, 255, 0.63);
+header >h4{
+  /* background: rgb(151, 132, 132); */
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+  color: azure;
+  text-shadow: 1px 1px 1px ;
+}
+
+#instrucoes {
+  position: relative;
+  display: block;
+  /* left: 25%; */
+  /* top: 20%; */
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.507);
+  border: 1px solid white;
+  max-width: 30%;
+  height: auto;
+  z-index: 1;
+}
+
+#instrucoes p {
+  padding: 10px;
+  color: white;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#instrucoes #cuidado {
+  width: 50%;
+  position: relative;
+  min-height: 150px;
+}
+
+#fechar img{
+  position: absolute;
+  right: 10px;
+  width: 30px;
+  margin-top: 10px;
+  float: right;
+}
+
+#flex {
+  /* background-color: aqua; */
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: none;
+  flex-direction:row;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
 }
 
 .card {
   padding: 10px; 
-  background-color: rgba(255, 255, 255, 0);
-  border: 5px solid rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.822);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
   width: 200px;
   height: 300px;
   margin-top: 10px;
   overflow: hidden;
-}
-
-@media screen and (max-width: 760px) {
-  #grid {
-    grid-template-columns: auto auto;
-
-    
-  }
-}
-
-#flex {
-  margin-top: 15px;
-  display: flex;
-  flex-direction:row;
-  flex-wrap: wrap; 
-  justify-content: space-evenly;
 }
 
 .card img{
@@ -64,7 +100,6 @@ header >h1{
   display: grid;
   grid-template-columns: auto auto;
   /* grid-template-rows: 20px 20px; */
-  
   justify-content: center;
   align-content: center;
   /* background-color: aqua; */
@@ -75,9 +110,10 @@ header >h1{
 }
 
 .botao_de_escolha {
-  color: rgba(0, 0, 0, 0.267);
-  background-color: white;
+  color: rgb(0, 0, 0);
+  background-color: rgb(163, 160, 160);
   height: 10px;
+  width: 70px;
   border-radius: 10px;
   text-align: center;
   padding: 8px;
@@ -90,24 +126,29 @@ header >h1{
 .botao_de_escolha:hover {
   opacity: 1;
   cursor: pointer;
-  background-color: lightgreen;
+  background-color: rgb(49, 218, 119);
 }
 
-@media screen and (max-width: 580px) {
-  #grid {
-    grid-template-columns: auto;
+@media screen and (max-width: 1250px) {
+  body{
+  background: url("imagens/fundo_kakashi_2.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   }
-  .botao_de_escolha {
-    font-size: 10px;
+  #instrucoes p {
+    font-size: 15px;
   }
-  body {
-    background-size: 100vh 100vw;
+  #instrucoes {
+    max-width: 50%;
   }
+
 }
 
 #confirmar_escolha {
   background-color: rgb(0, 0, 0);
-  display: block;
+  display: none;
   width: 150px;
   margin: 0 auto;
   padding: 10px;
@@ -119,6 +160,7 @@ header >h1{
   font-size: 12px;
   transition: .5s ease;
   border-radius: 15px;
+  color: aquamarine;
 }
 
 #confirmar_escolha:hover {
@@ -127,16 +169,6 @@ header >h1{
 }
 
 #confirmar_escolha > p {
-  color: rgb(255, 255, 255);
+  color: rgb(52, 167, 151);
   text-align: center;
-}
-
-#titulo {
-  background-color:black;
-  color: white;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
-  display: block;
-  max-width: 500px;
 }
