@@ -30,3 +30,4 @@ function obter_resultado(){
         }
     }
 }
+//oi
