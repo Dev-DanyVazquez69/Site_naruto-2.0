@@ -38,7 +38,8 @@ header >h4{
   margin-top: 100px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.507);
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  border-radius: 10px;
   max-width: 30%;
   height: auto;
   z-index: 1;
@@ -49,7 +50,7 @@ header >h4{
   color: white;
   font-style: oblique;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #instrucoes #cuidado {
@@ -80,7 +81,7 @@ header >h4{
 .card {
   padding: 10px; 
   background-color: rgba(0, 0, 0, 0.822);
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255, 0.507);
   border-radius: 10px;
   width: 200px;
   height: 300px;
@@ -110,8 +111,8 @@ header >h4{
 }
 
 .botao_de_escolha {
-  color: rgb(0, 0, 0);
-  background-color: rgb(163, 160, 160);
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   height: 10px;
   width: 70px;
   border-radius: 10px;
@@ -120,7 +121,8 @@ header >h4{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   opacity: .8;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 1px 1px white;
 }
 
 .botao_de_escolha:hover {
