@@ -1,6 +1,6 @@
 # **PROTÓTIPO/ESBOÇO SITE NARUTO**
 
-    [~~CLIQUE AQUI PARA ACESSAR~~](https://site-naruto-2-0.vercel.app/)
+   
 
 ****Site quiz com tema do anime naruto***
 Construção visando praticar os conceitos de CSS tais como: grid layout, flexbox.
@@ -13,3 +13,4 @@ Abordando também as principais tags e organização de um site html.*
 
 
 ![enter image description here](https://lh3.googleusercontent.com/Hl-nUqrITOUu437Ev-Xh3q8tYt_GhtzYUqDnEdVf9sUG82yVVtjL6U2esZ516MVAe9o_7QrgjqCxlQ2OJAS0FIpFxuMRH8lh_1tnm2IwkbB-E2toHMr2biydK_wwB0UOy7EpYkS_AE80-IPCRRtpI0G7nS-r_DG7OTdHUm_4Ym6bbdrc1HW8B2atxx0wBceLkF_LpLKzrY6ShVaJ_qn_p9vGWDU4AN2wIE7dqT6HDVEJ1sWUxObHvAiuYeCsy7a0MdH9WgDtSxXWsFjz-SKGQHj9J4uMdtUi_6iOk8NMMNGzjXlqdWPpFtNt1n2gi1YWtiHQ9RNo_zeVGpJPgADxcsGj1rdJAGiaCD_-j3pn9mb6zCU5t54jKizXn_O7SSIeKpFjtRMQJ7aLqjeLYQxiUFhu3oM1Lpucv0k96sFRlp6nQtoQuGfOhzlXKAYnRoEAI8Vzp76vqbEdmhLcJwxtp3MzxDhOWTxi8fcVR4GnIbuwL0sCIE5A9rkLszrOrbE-AvTTv8xtu1o1sIfQEb58y2Qb5X3FjQWB2QmRMJpEAfSl73m9DiaAWcRFf59CFehAOU2BpWgRpQrILpMtqfndKvuoaVOVoWSjy_4wyRfHSg7WQfMjAXz-r8sSnjvUAqhzpA-gIsd_l9c6GEhQmS2xNTRoE_-9AR0Hp9h4-9Caq--NZI2QwHYaQ22x5Uu8cCe9eq43zcFe9xekroZvgPFZnQ=w1358-h646-no?authuser=1)
+![enter image description here](https://o.remove.bg/downloads/9e75478b-b583-49a0-835d-17f5a953bb39/Orochimaru-removebg-preview.png)
